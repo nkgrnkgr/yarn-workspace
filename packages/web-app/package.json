@@ -1,26 +1,30 @@
 {
-	"name": "@w/web-app",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "biome check --apply src",
-		"format": "biome format --write src"
-	},
-	"dependencies": {
-		"@w/design": "*",
-		"next": "14.2.3",
-		"react": "^18",
-		"react-dom": "^18"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.7.1",
-		"@types/node": "^20",
-		"@types/react": "^18",
-		"@types/react-dom": "^18",
-		"jest": "^29.7.0",
-		"typescript": "^5"
-	}
+  "name": "@w/web-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check --apply src",
+    "format": "biome format --write src",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@w/design": "*",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.1",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5"
+  }
 }
