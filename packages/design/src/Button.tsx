@@ -1,7 +1,3 @@
 export function Button() {
-  return (
-    <button type="button" onClick={() => {}}>
-      Button
-    </button>
-  );
+  return <button type="button">Button</button>;
 }
