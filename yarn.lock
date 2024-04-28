@@ -1426,6 +1426,14 @@
     vite "^5.0.11"
     vite-node "^1.2.0"
 
+"@vanilla-extract/jest-transform@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@vanilla-extract/jest-transform/-/jest-transform-1.1.4.tgz#f7a7121441bd084bcd6487ac93774aaa91750955"
+  integrity sha512-uI2U7y4TvpMUK1E9otKgBWW1JbV9Z7neK2bIO7wACmGpv9wIJjZKOSXnIusejToQblT5yItnyF3I41st9uIZgg==
+  dependencies:
+    "@vanilla-extract/integration" "^7.0.0"
+    esbuild "npm:esbuild@~0.17.6 || ~0.18.0 || ~0.19.0"
+
 "@vanilla-extract/next-plugin@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@vanilla-extract/next-plugin/-/next-plugin-2.4.0.tgz#e2a5de7df6506e31034e8482af67f83bc15b1ce6"
