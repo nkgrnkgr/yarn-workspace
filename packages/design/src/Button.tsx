@@ -1,3 +1,9 @@
+import { button } from "./Button.css";
+
 export function Button() {
-  return <button type="button">Button</button>;
+  return (
+    <button className={button} type="button">
+      Button
+    </button>
+  );
 }
